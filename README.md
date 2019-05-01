@@ -10,7 +10,6 @@
 > 2D 다방향 슈터게임
 ## Cookie Clicker
 > 쿠키 클릭커 
-- - -
 ## Tappy Plane
 > 플래피 버드
 > 
