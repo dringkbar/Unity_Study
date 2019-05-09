@@ -117,6 +117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 17382050}
   - component: {fileID: 17382051}
+  - component: {fileID: 17382052}
   m_Layer: 0
   m_Name: Game Controller
   m_TagString: GameController
@@ -148,11 +149,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d494ceee184ae944eab9ae8dbe3c5616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wall: {fileID: 4053466468175542, guid: 9f9bdf7539f53654b939be17bfd3f5cf, type: 2}
-  player: {fileID: 4232461158345094, guid: 1395a07767ecc9a4d872ffa563dabd1e, type: 2}
-  orb: {fileID: 4706968655357396, guid: e0c9e56952a54f440bfb63b80f56a60c, type: 2}
-  goal: {fileID: 4900156612272272, guid: e8810802f0530884eb96b43044ded1fd, type: 2}
   scoreText: {fileID: 48090098}
+--- !u!114 &17382052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 17382049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7784be536f6a1ae4598eff50fbe04aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 4053466468175542, guid: 9f9bdf7539f53654b939be17bfd3f5cf, type: 2}
+  - {fileID: 4510601468858818, guid: 9a795dc4659e1ba4fa50b34cb30cafd4, type: 2}
+  - {fileID: 4706968655357396, guid: e0c9e56952a54f440bfb63b80f56a60c, type: 2}
+  - {fileID: 4900156612272272, guid: e8810802f0530884eb96b43044ded1fd, type: 2}
 --- !u!1 &48090096
 GameObject:
   m_ObjectHideFlags: 0
