@@ -27,9 +27,4 @@ public class PlayerStart : MonoBehaviour {
         Transform newObject = Instantiate(player, this.transform.position, Quaternion.identity) as Transform;
         newObject.name = "Player";
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
