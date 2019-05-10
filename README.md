@@ -1,7 +1,6 @@
 유니티 공부하는 레포
 =
 * 유니티 관련 책을 보면서 직접 실습하며 공부하는 레포입니다.
-* 잘모르는 개념이나 그런걸 잊지않도록 적어둘 수도 있습니다.
 
  # Unity 5.x Game Development Blueprints
 * 정말 좋은책이라고 생각하는 책
@@ -21,10 +20,3 @@
 > 
 ## First Person Shooter
 > 일인칭 공포게임?
-
-
-# Mathf.
-* Mathf관련 함수들은 정리
-## Mathf.Atan2()
----
-*추가예정
